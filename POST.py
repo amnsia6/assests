@@ -4,3 +4,4 @@ dat={"kw": s}
 url="https://fanyi.baidu.com/sug"
 resp=requests.post(url,data=dat)
 print(resp.json())
+resp.close()
